@@ -12,7 +12,7 @@ public class FirstPage {
 		f.setLayout(null);
 		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
 		
-		ImageIcon img=new ImageIcon("C:\\Users\\User\\eclipse-workspace\\Project Practice\\src\\School.jpg");
+		ImageIcon img=new ImageIcon("..\\Project Practice\\src\\School.jpg");
 		background=new JLabel("",img,JLabel.CENTER);
 		background.setBounds(0,0,1000,650);
 		f.add(background);
